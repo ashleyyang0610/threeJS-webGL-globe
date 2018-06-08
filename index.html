@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>three-JS-webGL-globe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .controls {
+                height: 35px;
+                padding: 5px 12px;
+                background-color: #24292e;
+            }
+            button {
+                margin-right: 5px;
+            }
+            .globe {
+                height: calc(100vh - 35px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="controls">
+            <button class="button-0">Show All</button>
+            <button class="button-1">Clean Globe</button>
+            <button class="button-2">Postion(lat, lng) and size</button>
+            <button class="button-3">Static curve and direction animation - Src and dest postion(lat, lng)</button>
+            <button class="button-4">Curve in animation - Src and dest postion(lat, lng)</button>
+        </div>
+        <div class="globe"></div>
+    </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/mrdoob/three.js/dev/examples/js/controls/TrackballControls.js"></script>
+    <script type="text/javascript" src="./utils/trackballControls.js"></script>
+    <script type="text/javascript" src="./utils/orbitControls.js"></script>
+    <script type="text/javascript" src="./utils/variables.js"></script>
+    <script type="text/javascript" src="./utils/helpers.js"></script>
+    <script type="text/javascript" src="./mock/globeSizeMock.js"></script>
+    <script type="text/javascript" src="./mock/globePathMock.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</html>
