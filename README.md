@@ -3,6 +3,8 @@
 Practice of 3D globe with some anmations.
 [Online Website](https://ashleyyang0610.github.io/threeJS-webGL-globe/)
 
+![](./images/snapshoot.png)
+
 ## Features
 1. 3D Globe.
 2. Latitude Longitude visualizaion with each size.
