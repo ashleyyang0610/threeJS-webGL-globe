@@ -3,7 +3,7 @@
 Practice of 3D globe with some anmations.
 [Online Website](https://ashleyyang0610.github.io/threeJS-webGL-globe/)
 
-![](./images/snapshoot.png)
+![](./images/snapshot.png)
 
 ## Features
 1. 3D Globe.
