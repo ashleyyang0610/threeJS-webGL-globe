@@ -13,7 +13,7 @@ Practice of 3D globe with some anmations.
 5. Perspective control.
 
 ## Requirements
-* Suuported Browser: Chrome, Firefox, Safari, IE11, Edge.
+* Suported Browser: Chrome, Firefox, Safari, IE11, Edge.
 
 ### Tools or Libraries
 * [three.js](https://threejs.org/)
